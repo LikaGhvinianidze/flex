@@ -149,13 +149,13 @@
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fdd49a), to(#fdf59a));
     background-image: -webkit-linear-gradient(to bottom, #fdd49a, #fdf59a);
     background-image: -o-linear-gradient(to bottom, #fdd49a, #fdf59a);
-    background-image: linear-gradient(to bottom, #fdd49a, #fdf59a);
+    background-image: linear-gradient(to bottom, #007bff, #17a2b8);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdd49a', endColorstr='#fdf59a', GradientType=0);
     border-color: #fdf59a #fdf59a #fbed50;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    color: #000;
+    color: #fff;
 }
 
 .datepicker table tr td.today:hover,
