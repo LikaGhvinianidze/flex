@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlexBox</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <div class="flex-form">
+            <input type="text" placeholder="Where?">
+            <input type="text" class="datepicker" value="Checkin">
+            <input type="text" class="datepicker" value="Checkout">
+            <select id="exampleFormControlSelect1">
+                <option>1 Guest</option>
+                <option>2 Guest</option>
+                <option>3 Guest</option>
+                <option>4 Guest</option>
+                <option>5 Guest</option>
+            </select>
+            <button data-text="Search" class="search">Search </button>
+        </div>
+    </div>
+    <video src="video/Road-Tripping.mp4" class="video" autoplay="true" loop="true"></video>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/datepicker.js"></script>
+
+    <script>
+        $(function () {
+  $(".datepicker").datepicker({ 
+        autoclose: true, 
+        todayHighlight: true
+  }).datepicker('update', new Date());
+});
+
+    </script>
+</body>
+
+</html>
